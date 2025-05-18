@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C955F5C8-95F9-4B92-BD38-6F423E21F100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDyb.Handler", "src\MyDyb.Handler\MyDyb.Handler.csproj", "{E94981FB-AF22-4AA4-963E-132B46CF3B52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{02C8D5FC-A977-4697-89E5-5B40195D1840}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E94981FB-AF22-4AA4-963E-132B46CF3B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94981FB-AF22-4AA4-963E-132B46CF3B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94981FB-AF22-4AA4-963E-132B46CF3B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94981FB-AF22-4AA4-963E-132B46CF3B52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E94981FB-AF22-4AA4-963E-132B46CF3B52} = {C955F5C8-95F9-4B92-BD38-6F423E21F100}
+	EndGlobalSection
+EndGlobal
