@@ -10,4 +10,6 @@ public class Segment
     public string TranslationRu { get; init; } = string.Empty;
     public string AccentRu { get; init; } = string.Empty;
     public string AudioMediaId { get; init; } = string.Empty;
+    public bool TrueDub { get; init; } = true;
+    public string ExternalRefId { get; init; } = string.Empty;
 }

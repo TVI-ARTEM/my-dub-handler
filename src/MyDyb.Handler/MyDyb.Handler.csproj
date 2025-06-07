@@ -27,5 +27,6 @@
 
     <ItemGroup>
       <Folder Include="Clients\MlService\" />
+      <Folder Include="Clients\ProjectService\" />
     </ItemGroup>
 </Project>
